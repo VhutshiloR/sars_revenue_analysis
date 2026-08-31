@@ -26,3 +26,8 @@ How to Run python
 import pandas as pd
 df = pd.read_csv('sars_table_15_clean.csv')
 df.plot(x='Year', y=['Individuals','Companies','VAT'], kind='bar')
+
+Files in this repo
+Python_code.py-analysis done using python
+sars_table_15_clean.csv-Clean data from table 1.5
+total_growth.png and composition.png=visualizations
