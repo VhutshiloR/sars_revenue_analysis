@@ -1,7 +1,7 @@
 # sars_revenue_analysis
 SARS Tax Revenue Analysis — Table 1.5 (2008/09 – 2024/25)
 
-Tools:Python, pandas, matplotlib  
+Tools: Python, pandas, matplotlib  
 Source: SARS Tax Statistics 2024, Chapter 1, Table 1.5 Nominal Tax Collections
 
 Objective
@@ -25,4 +25,4 @@ Charts
 How to Run python
 import pandas as pd
 df = pd.read_csv('sars_table_15_clean.csv')
-df.plot(x='Year', y=['Individual','Companies','VAT'], kind='bar')
+df.plot(x='Year', y=['Individuals','Companies','VAT'], kind='bar')
