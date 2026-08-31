@@ -18,7 +18,6 @@ plt.title('SARS Total Tax Revenue Growth 2008-2024')
 plt.ylabel('R million')
 plt.xticks(rotation=45)
 plt.show()
-
 df.plot(x='Year', y=['Individuals', 'Companies', 'VAT'], kind='bar')
 plt.title('Main Sources of Tax Revenue')
 plt.ylabel('R million')
